@@ -1,0 +1,98 @@
+* {
+    background-color: rgb(244, 166, 166);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.markdown-editor-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+
+.input-title {
+
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.button-save {
+    padding: 7px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.button-save:hover {
+    background-color: #0056b3;
+}
+
+
+.textarea-content {
+    height: 200px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+.button-preview {
+    padding: 8px 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.button-preview:hover {
+    background-color: #0056b3;
+}
+
+.note-container {
+    border: 1px solid #0b0101;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.note-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.abc {
+    margin: 15rem;
+    font-size: 26px;
+}
+
+.abc button {
+    background-color: #007bff;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-left: 30%;
+}
